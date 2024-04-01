@@ -1,8 +1,27 @@
 
-im {
-    border-radius: 50%;
+  /*           */
+
+.destination-info img{
+    width: 300px;
+    border-radius: 10% 30% 
+}
+.rc {
+    padding: 20px;
+    width: 200px;
+    border-radius: 10% 30%  
   }
 
+  .container {
+    display: flex;
+  }
+  
+  .flex-image {
+    flex: 1;
+    padding: 20px;
+    max-width: 200px; /* Adjust the max-width as needed */
+    border-radius: 20%;
+    
+  }
 .footer
 {
     background-color: #333;
@@ -32,8 +51,8 @@ im {
 }
 f{
     font-style: oblique;
-    font-size: large
-    ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 
 }
 .main-nav {
@@ -89,6 +108,16 @@ f{
     font-style: italic;
 
 }
+.center2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    color: rgb(69, 102, 112);
+    font-size: 25px;
+    font-style: italic;
+}
 
 
  x {    
@@ -131,15 +160,4 @@ f{
 
 #latest-posts.animated.slideInUp {
     animation-name: slideInUp;
-}
-
-#big-square { background-color: skyblue;
-    border: 25px solid pink;
-    height: 200px;
-    width: 200px; }
-    
-#small-square { background-color: khaki;
-    margin: 25px;
-    height: 150px;
-    width: 150px;
 }
